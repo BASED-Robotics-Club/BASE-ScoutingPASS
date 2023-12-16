@@ -37,7 +37,7 @@
 ### **Universal**
   * Works on any device that has a web browser that runs JavaScript.  Apple, Android, phones, tablets, laptops, it works on them all.
 ### **Low/No Bandwidth**
-  * Neither WiFi nor Cellular required at event.  The web page can be downloaded before the event and doesn't need to be reloaded.
+  * Neither WiFi nor Cellular required at event.  The webpage can be downloaded before the event and doesn't need to be reloaded.
 ### **Easy hosting**
   * Self hosting via GitHub. (See directions below)
 ### **[The Blue Alliance Integration](https://thebluealliance.com)**
