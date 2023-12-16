@@ -237,7 +237,7 @@ Distributed under the GNU GPL v3.0 License. See `LICENSE` for more information.
     <li>Add "Flip Image" button to the Field Image component</li>
     <li>Add "tooltip" option for components - Tooltips will appear when hovering over the name of the component</li>
     <li>Bug Fix: Two field image elements on the same page will now render correctly</li>
-    <li>Google Sheets data export <BETA> (See the [Google Sheets](docs/GoogleSheets.md) page for more details)</li>
+    <li>Google Sheets data export (BETA) (See the [Google Sheets](docs/GoogleSheets.md) page for more details)</li>
     <li>Configurable checkbox values in configuration file.  Defaults to Y/N.  Can set to T/F or 1/0.  See line 5 of 2022/RR_config.js for an example
       <ul>
         <li>"YN" - for Y/N output</li>
