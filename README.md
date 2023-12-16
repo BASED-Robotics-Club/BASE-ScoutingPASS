@@ -45,13 +45,13 @@
 ### **[Google Sheets Integration](docs/GoogleSheets.md) <BETA>**
   * Send data to a Google Sheets spreadsheet
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p style="text-align:right;">(<a href="#top">back to top</a>)</p>
 <div id="live-demo"></div>
 
 ## Live Demo
 This repository is hosted on GitHub Pages.  You can view a live version of it here: https://PWNAGERobotics.github.io/ScoutingPASS.  (You can host your ScoutingPASS application on GitHub Pages as well.)
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p style="text-align:right;">(<a href="#top">back to top</a>)</p>
 <div id="description"></div>
 
 ## Description:
@@ -79,11 +79,11 @@ These should cover most of your scouting team's data collection needs.  PWNAGE's
 
 Since this is a HTML/JavaScript web page, scouters can use almost any device that has a web broswer.  If the device has a touchscreen the screen can be used to swipe back and forth between pages and interact with the data elements.  The webpage only needs to be loaded once.  Once loaded the functionality and data is stored locally in the webpage and doesn't need to be reloaded.  The QR code generation and clear button only resets the form and does not cause the page to reload.  This means that a cellular or WiFi connection is not needed at the competition as long as the webpage is loaded before the event.
 
-If your team has a The Blue Alliance API access token (See https://www.thebluealliance.com/apidocs) the web page will pull team and schedule information from The Blue Alliance.  Put your access token in the authKey variable in resources/js/TBAInterface.js and when the web page is loaded it will load the data (for the event code in the Event field).  This enables some features on the PreMatch Screen.  With the team information the team name will populate just below the Team # field when the team # field is filled in.  If the schedule information is available when the web page is loaded then when the match and robot fields are populated it will automatically populate the team number and team name for the scouter.  This reduces typo errors when entering the team numbers manually.  (Schedules are usually published before the event a day or two before matches start.  However, it may be delayed for various reasons an may only be published hours or minutes before the start of a competition.)
+If your team has a Blue Alliance API access token (See https://www.thebluealliance.com/apidocs) the web page will pull team and schedule information from The Blue Alliance.  Put your access token in the authKey variable in resources/js/TBAInterface.js and when the web page is loaded it will load the data (for the event code in the Event field).  This enables some features on the PreMatch Screen.  With the team information the team name will populate just below the Team # field when the team # field is filled in.  If the schedule information is available when the web page is loaded then when the match and robot fields are populated it will automatically populate the team number and team name for the scouter.  This reduces typo errors when entering the team numbers manually.  (Schedules are usually published before the event a day or two before matches start.  However, it may be delayed for various reasons an may only be published hours or minutes before the start of a competition.)
 
 The QR code can be read by a web camera or hand scanner to import the data into the Excel scouting database.  The hand scanner used reads the QR code and inputs the data as if it is typed in from a keyboard.  Included in this repository is the Excel code to pop up an input window and parse the qr data into a row in Excel. (see the [Excel directory](Excel))
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p style="text-align:right;">(<a href="#top">back to top</a>)</p>
 <div id="getting-started"></div>
 
 ## Getting Started:
@@ -102,7 +102,7 @@ To enable The Blue Alliance API:
 
 Note: In order for this to work, the schedule has to be posted to The Blue Alliance.  That usually doesn't happen until just before the event. (a few days to a few hours)  To test this you can point it to a past event.   Set the event to 2020ilch.   Reload the page to load the schedule for that event. Select Match 6 and Blue-2.  You should see it populate the Team # to 2451, and the next line will show the team name, PWNAGE.
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p style="text-align:right;">(<a href="#top">back to top</a>)</p>
 <div id="pit-scouting"></div>
 
 ## Pit Scouting:
@@ -117,7 +117,7 @@ The default configuration file is 2023/CU_Pit_config.js.   You can modify that c
 
 We realize that you may not want to lug your computer around the pits to scan each QR code.  Our recommendation is to have your scouters take screenshot of the QR codes.   Then when they are back to the scouting computer, just go through the photos to scan each QR code.
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p style="text-align:right;">(<a href="#top">back to top</a>)</p>
 <div id="how-we-scout"></div>
 
 ## How We Scout
@@ -134,7 +134,7 @@ The night before Eliminations we load the Excel data into Tableau where we use t
 
 The pick list can be modified up to Alliance Selection based on the data that is continued to be collected all the way up to the last match.
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p style="text-align:right;">(<a href="#top">back to top</a>)</p>
 <div id="contributing"></div>
 
 ## Contributing
@@ -146,7 +146,7 @@ If you have a suggestion that would make this better, please fork the repo and c
 
 Don't forget to give the project a star!
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p style="text-align:right;">(<a href="#top">back to top</a>)</p>
 <div id="faq"></div>
 
 ## Frequently Asked Questions:
@@ -184,7 +184,7 @@ This could be used (as in our demo) to collect shooting information and create h
 Note: The Auto Start (as) element is special in that it will only keep track of one location.  There can only be one starting location.  Therefore if you click more than once it will only record the last location.
 </details>
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p style="text-align:right;">(<a href="#top">back to top</a>)</p>
 <div id="things-to-add"></div>
 
 ## Things we might want to add someday:
@@ -200,14 +200,14 @@ Note: The Auto Start (as) element is special in that it will only keep track of 
 * Incorporate [Statbotics.io](http://statbotics.io/) data
 * See [issues](https://github.com/PWNAGERobotics/ScoutingPASS/issues) for more
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p style="text-align:right;">(<a href="#top">back to top</a>)</p>
 <div id="license"></div>
 
 ## License
 Distributed under the GNU GPL v3.0 License. See `LICENSE` for more information.
 
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p style="text-align:right;">(<a href="#top">back to top</a>)</p>
 <div id="2024-changes"></div>
 
 ## 2024 Season Updates
@@ -219,7 +219,7 @@ Distributed under the GNU GPL v3.0 License. See `LICENSE` for more information.
   </ul>
 </details>
 
-<p align="right">(<a href="#top">back to top</a>)</p>
+<p style="text-align:right;">(<a href="#top">back to top</a>)</p>
 <div id="2023-changes"></div>
 
 ## 2023 Season Updates
